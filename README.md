@@ -1,2 +1,0 @@
-# peterasare.com
-personal website
