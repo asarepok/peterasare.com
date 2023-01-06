@@ -1,1 +1,1 @@
-See it live on [peterasare.com](https://peterasare.com)
+It's live at [peterasare.com](https://peterasare.com)

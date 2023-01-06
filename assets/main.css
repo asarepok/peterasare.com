@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #051923;
+  color: #0582ca;
+}
+
+h1 {
+  font-family: "VT323", monospace;
+  font-size: 6rem;
+  margin-top: 8rem;
+}
+
+.main {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+.socials {
+  font-size: 2.3rem;
+  list-style-type: none;
+  margin-top: 3rem;
+}
+
+.greeting {
+  color: #18a7f9;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-top: 1rem;
+}
+.socials > li {
+  float: left;
+  display: block;
+  padding-right: 0.8rem;
+}
+
+.snap {
+  color: #fffc00;
+}
+.twttr {
+  color: #00acee;
+}
+.github {
+  color: #f0f6fc;
+}
+.email {
+  color: #e3e3e3;
+}
+
+.tg {
+  color: #0088cc;
+}
+
+.ig {
+  color: #8a3ab9;
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+  .greeting {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
