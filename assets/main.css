@@ -45,25 +45,12 @@ h1 {
   padding-right: 0.8rem;
 }
 
-.snap {
-  color: #fffc00;
-}
-.twttr {
-  color: #00acee;
-}
-.github {
+a {
   color: #f0f6fc;
 }
-.email {
+
+a:hover {
   color: #e3e3e3;
-}
-
-.tg {
-  color: #0088cc;
-}
-
-.ig {
-  color: #8a3ab9;
 }
 
 @media only screen and (max-width: 900px) {
