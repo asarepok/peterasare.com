@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .type("s")
     .move(3, { instant: false })
     .type(" :(", { delay: 100 })
+    .pause(300)
     .delete(1)
     .type(")")
     .go();

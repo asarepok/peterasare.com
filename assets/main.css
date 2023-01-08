@@ -7,6 +7,12 @@
   box-sizing: border-box;
 }
 
+:root {
+  --ti-cursor-color: #18a7f9;
+  --ti-cursor-font-family: "VT323", monospace;
+  --ti-cursor-font-size: 6rem;
+}
+
 body {
   width: 100vw;
   height: 100vh;
