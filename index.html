@@ -46,6 +46,29 @@
           ></a>
         </li>
       </ul>
+      <div class="input-group">
+        <label for="npub">Below's my nostr public key</label>
+        <div class="input-field">
+          <input
+            type="text"
+            value="npub1ran9mmw890vy9yfx7q2l8khmj28kvvy8rnk0q3x78m86vddvgsesyg9egk"
+            id="npub"
+          />
+          <button onclick="copy()">
+            <i class="bx bxs-copy"></i>
+          </button>
+        </div>
+        <script>
+          function copy() {
+            let npub = document.getElementById("npub");
+
+            npub.select();
+            npub.setSelectionRange(0, 99999);
+
+            navigator.clipboard.writeText(npub.value);
+          }
+        </script>
+      </div>
     </main>
   </body>
 </html>

@@ -22,6 +22,7 @@ h1 {
 
 .main {
   width: 50rem;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -29,6 +30,7 @@ h1 {
   font-size: 2.3rem;
   list-style-type: none;
   margin-top: 3rem;
+  height: 2.5rem;
 }
 
 .greeting {
@@ -53,6 +55,55 @@ a:hover {
   color: #e3e3e3;
 }
 
+.input-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2.5rem;
+}
+
+label {
+  color: #18a7f9;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1.2rem;
+}
+
+.input-field {
+  width: fit-content;
+  margin-top: 0.8rem;
+  position: relative;
+}
+
+input {
+  width: 20rem;
+  padding: 0.8rem 1rem;
+  background-color: #0b384c;
+  border: 2px solid #18a7f9;
+  outline: none;
+  border-radius: 5px;
+  color: #18a7f9;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-size: 1rem;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  right: 0;
+  background-color: #18a7f9;
+  border: 2px solid #18a7f9;
+  color: #0b384c;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #1698e3;
+  border: 2px solid #1698e3;
+}
+
 @media only screen and (max-width: 900px) {
   .main {
     width: 100%;
@@ -66,6 +117,12 @@ a:hover {
   }
   .greeting {
     font-size: 1.2rem;
+  }
+  .input-field {
+    width: 100%;
+  }
+  input {
+    width: 100%;
   }
 }
 
