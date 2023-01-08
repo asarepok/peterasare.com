@@ -56,17 +56,25 @@
             readonly
           />
           <button onclick="copy()">
-            <i class="bx bxs-copy"></i>
+            <i id="copy-icon" class="bx bxs-copy"></i>
           </button>
         </div>
         <script>
           function copy() {
             let npub = document.getElementById("npub");
+            let copy_icon = document.getElementById("copy-icon");
 
             npub.select();
             npub.setSelectionRange(0, 99999);
 
             navigator.clipboard.writeText(npub.value);
+            copy_icon.classList.remove("bxs-copy");
+            copy_icon.classList.add("bx-check");
+
+            setTimeout(() => {
+              copy_icon.classList.remove("bx-check");
+              copy_icon.classList.add("bxs-copy");
+            }, 4000);
           }
         </script>
       </div>
