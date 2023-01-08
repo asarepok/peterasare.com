@@ -11,7 +11,7 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #051923;
-  color: #0582ca;
+  color: #e3e3e3;
 }
 
 h1 {
@@ -36,7 +36,6 @@ h1 {
 .greeting {
   color: #18a7f9;
   font-family: "Nanum Gothic Coding", monospace;
-  font-weight: bold;
   font-size: 1.5rem;
   line-height: 1.8rem;
   margin-top: 1rem;
@@ -48,11 +47,11 @@ h1 {
 }
 
 a {
-  color: #f0f6fc;
+  color: #e3e3e3;
 }
 
 a:hover {
-  color: #e3e3e3;
+  color: #f0f6fc;
 }
 
 .input-group {

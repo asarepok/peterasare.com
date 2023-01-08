@@ -9,11 +9,13 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="/assets/main.js"></script>
     <link rel="stylesheet" href="/assets/main.css" />
   </head>
   <body>
     <main class="main">
-      <h1>Peter Asare :)</h1>
+      <h1 id="intro"></h1>
       <p class="greeting">
         Hey there! My website is currently under construction. Get in touch with
         me via my socials.
@@ -59,24 +61,6 @@
             <i id="copy-icon" class="bx bxs-copy"></i>
           </button>
         </div>
-        <script>
-          function copy() {
-            let npub = document.getElementById("npub");
-            let copy_icon = document.getElementById("copy-icon");
-
-            npub.select();
-            npub.setSelectionRange(0, 99999);
-
-            navigator.clipboard.writeText(npub.value);
-            copy_icon.classList.remove("bxs-copy");
-            copy_icon.classList.add("bx-check");
-
-            setTimeout(() => {
-              copy_icon.classList.remove("bx-check");
-              copy_icon.classList.add("bxs-copy");
-            }, 4000);
-          }
-        </script>
       </div>
     </main>
   </body>
