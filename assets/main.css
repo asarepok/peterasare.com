@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --ti-cursor-color: #18a7f9;
-  --ti-cursor-font-family: "VT323", monospace;
-  --ti-cursor-font-size: 6rem;
-}
-
 body {
   width: 100vw;
   height: 100vh;
@@ -23,7 +17,6 @@ body {
 h1 {
   font-family: "VT323", monospace;
   font-size: 6rem;
-  margin-top: 8rem;
 }
 
 .main {
@@ -37,6 +30,27 @@ h1 {
   list-style-type: none;
   margin-top: 3rem;
   height: 2.5rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 8rem;
+  align-items: center;
+}
+
+.avi {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  background-color: #1698e3;
+  margin-right: 2rem;
+}
+
+.avi img {
+  width: 100%;
+  height: 100%;
 }
 
 .greeting {
@@ -114,6 +128,14 @@ button:hover {
   .main {
     width: 100%;
     padding: 0 2rem;
+  }
+
+  .intro {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    align-items: center;
+    justify-content: center;
   }
 }
 
