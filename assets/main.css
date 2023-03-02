@@ -159,7 +159,4 @@ button:hover {
   h1 {
     font-size: 3rem;
   }
-  :root {
-    --ti-cursor-font-size: 3rem;
-  }
 }
