@@ -143,9 +143,7 @@ button:hover {
   h1 {
     font-size: 4rem;
   }
-  :root {
-    --ti-cursor-font-size: 4rem;
-  }
+
   .greeting {
     font-size: 1.2rem;
   }
